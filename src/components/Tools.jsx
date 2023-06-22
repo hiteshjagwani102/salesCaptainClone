@@ -12,7 +12,7 @@ const titles3 = ["Captain AI","Feedback & Survey","Competition & Insights","Cust
 
   return (
     <div className='flex flex-column justify-center items-center mt-20'>
-        <h2 className="md:text-5xl text-4xl font-bold font-poppins text-gray-950 my-5 text-center">
+        <h2 className="text-2xl md:text-5xl text-4xl font-bold font-poppins text-gray-950 my-5 text-center">
         Tools to take your business to next level
     </h2>
 

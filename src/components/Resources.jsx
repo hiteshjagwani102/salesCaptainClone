@@ -5,10 +5,10 @@ import { Fade, Slide,Zoom } from "react-awesome-reveal";
 const Resources = () => {
   return (
     <div className="flex flex-col flex-wrap justify-center items-center mt-20">
-      <h2 className="md:text-5xl text-4xl font-bold font-poppins text-gray-950 my-5 text-center">
+      <h2 className="text-3xl md:text-5xl font-bold font-poppins text-gray-950 my-5 mx-3 text-center">
         Expert Insights and Resources
       </h2>
-      <p className="text-2xl">
+      <p className="text-xl md:text-2xl text-center mx-3">
         {" "}
         Get the latest business intelligence relevant to your industry, designed
         to help you grow.
@@ -16,7 +16,7 @@ const Resources = () => {
 
       <div className="flex flex-row flex-wrap justify-center items-center my-5">
         <Slide direction="left">
-        <div className="flex flex-col justify-center items-center w-[350px] m-3">
+        <div className="flex flex-col justify-center items-center w-[250px] md:w-[350px] mx-2 my-4">
           <img
             className=" rounded-xl"
             src="https://assets.website-files.com/62a83ee090ccdee139c347e5/62defe250a42e4ba76b2ab04_Mask%20Group%20166.webp"
@@ -32,7 +32,7 @@ const Resources = () => {
         </div>
         </Slide>
 
-        <Zoom><div className="flex flex-col justify-center items-center w-[350px] m-3">
+        <Zoom><div className="flex flex-col justify-center items-center w-[250px] md:w-[350px] mx-2 my-4">
           <img
             className="rounded-xl"
             src="https://assets.website-files.com/62a83ee090ccdee139c347e5/62defe243b03ce85cb2d8c9d_Mask%20Group%20165.webp"
@@ -47,7 +47,7 @@ const Resources = () => {
         </div></Zoom>
 
         <Slide direction="right">
-        <div className="flex flex-col justify-center items-center w-[350px] m-3">
+        <div className="flex flex-col justify-center items-center w-[250px] md:w-[350px] mx-2 my-4">
           <img
             className="rounded-xl"
             src="https://assets.website-files.com/62a83ee090ccdee139c347e5/62defe2556fec0b3086291da_pexels-antoni-shkraba-4348404.webp"

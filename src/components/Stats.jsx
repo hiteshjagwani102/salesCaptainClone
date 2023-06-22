@@ -7,7 +7,7 @@ const Stats = () => {
     return (
   <div className="flex flex-column justify-center items-center mt-20 motion-safe:animate-fadeIn">
     <Fade>
-    <h2 className="md:text-5xl text-4xl font-bold font-poppins text-gray-950 my-5 text-center">
+    <h2 className="text-2xl lg:text-5xl text-4xl font-bold font-poppins text-gray-950 px-2 lg:px-0 my-5 text-center">
       Trusted by 100,000+ local businesses globally
     </h2>
     </Fade>

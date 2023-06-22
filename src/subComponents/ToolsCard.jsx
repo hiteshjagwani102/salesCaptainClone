@@ -7,7 +7,7 @@ const ToolsCard = (props) => {
     // )
 
     return (
-      <div className="flex flex-column flex-wrap py-5 px-4 m-2 border-1 rounded-3xl w-[450px]">
+      <div className="flex flex-column flex-wrap py-5 px-4 m-2 border-1 rounded-3xl w-[300px] lg:w-[450px]">
         <h1 className='text-4xl text-sky-800'>{props.head}</h1>
         <p className='text-gray-500 text-lg my-3 font-thin'>{props.shead}</p>
         <div className='flex flex-row mt-3'>

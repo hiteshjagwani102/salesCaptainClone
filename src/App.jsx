@@ -14,18 +14,18 @@ import { Fade,Slide } from "react-awesome-reveal";
 const App = () => (
   <>
     <div className="w-full overflow-hidden shadow-sm text-xl">
-      <div className="sm:px-16 px-6">
+      <div>
         <Fade><Navbar /></Fade>
       </div>
     </div>
 
     <div className="w-full overflow-hidden text-xl">
-      <div className="sm:px-16 px-6">
+      <div>
         <Fade><Intro /></Fade>
       </div>
       <img src="https://assets.website-files.com/62a83ee090ccdee139c347e5/62b0e6fa4473cb712ba3b454_home-hero-agnostic-l-2x-p-2000.webp"></img>
 
-      <div className="sm:px-16 px-6 ">
+      <div>
         <Fade><Stats /></Fade>
         <Fade><Tools /></Fade>
         <Fade><Fields /></Fade>
@@ -34,13 +34,13 @@ const App = () => (
       </div>
 
       <div className="bg-[#202020]">
-        <div className="sm:px-16 px-6">
+        <div>
         <Fade><Features /></Fade>
         </div>
       </div>
 
       <div className="bg-black">
-        <div className="sm:px-16 px-6">
+        <div>
         <Fade><Footer /></Fade>
         </div>
       </div>

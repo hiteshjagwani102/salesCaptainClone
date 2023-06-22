@@ -9,7 +9,7 @@ const TestimonialCard = (props) => {
     )
 
     return (
-      <div className="flex flex-column flex-wrap py-5 px-4 m-2 border-1 rounded-3xl w-[450px]">
+      <div className="flex flex-column flex-wrap py-5 px-4 m-2 border-1 rounded-3xl w-[300px] lg:w-[450px]">
         {/* personal details */}
         <div className="flex flex-row justify-left p-3">
           <img src={props.img} className="w-[50px] h-[50px] mr-5"></img>
